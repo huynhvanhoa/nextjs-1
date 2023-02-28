@@ -1,9 +1,16 @@
+import Head from "next/head";
 import React from "react";
 
 export default function login() {
   return (
-    <div>
-      <h1>Login page</h1>
-    </div>
+    <>
+      <Head>
+        <title>Login</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div>
+        <h1>Login page</h1>
+      </div>
+    </>
   );
 }

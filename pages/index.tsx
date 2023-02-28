@@ -2,9 +2,6 @@ import Head from "next/head";
 
 export default function Home() {
   let name: string = "Hoà Ký";
-  let isLoading: boolean;
-
-  isLoading = false;
 
   return (
     <>

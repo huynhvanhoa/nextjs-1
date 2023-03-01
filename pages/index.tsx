@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -15,19 +14,6 @@ export default function Home() {
         <link rel="stylesheet" href="/css/home.css" />
       </Head>
       <h1 className={styles.main}>Home page {name}</h1>
-      <Image
-        src="vercel.svg"
-        alt="Picture of vercel"
-        width={300}
-        height={300}
-      />
-      <Image src="next.svg" alt="Picture of next" width={300} height={300} />
-      <Image
-        src="thirteen.svg"
-        alt="Picture of thirteen"
-        width={300}
-        height={300}
-      />
     </>
   );
 }

@@ -4,6 +4,8 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   let name: string = "Hoà Ký";
 
+  const color = typeof window !== "undefined" ? "red" : "blue";
+
   return (
     <>
       <Head>
@@ -14,6 +16,7 @@ export default function Home() {
         <link rel="stylesheet" href="/css/home.css" />
       </Head>
       <h1 className={styles.main}>Home page {name}</h1>
+      <h1 className={`title ${color}`}>Hello World!</h1>
     </>
   );
 }
